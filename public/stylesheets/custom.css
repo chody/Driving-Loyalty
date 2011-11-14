@@ -31,6 +31,7 @@ section h1 {
 a {
   color: #09c;
   text-decoration: none;
+
 }
 
 a:hover {
@@ -63,18 +64,21 @@ nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
+  color: #400F62;
 }
 
 nav ul li a {
   padding: 0 5px;
   font-weight: bold;
+  color: #400F62;
 }
 
 nav ul li a:visited {
-  color: #09c;
+  color: #400F62;
 }
 
 nav ul li a:hover {
+  color: #400F62;
   text-decoration: underline;
 }
 

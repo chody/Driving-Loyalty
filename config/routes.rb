@@ -1,5 +1,7 @@
 DrivingLoyalty::Application.routes.draw do
 
+  get "organizations/new"
+
   get "users/new"
 
   match '/signup', :to => 'users#new'
